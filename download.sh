@@ -5,7 +5,8 @@
 
 set -e
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "Enter the URL from email:7/18: We're aware of people encountering a number of download issues today. Anyone still encountering issues should remove all local files, re-clone the repository, and request a new download link. It's critical to do all of these in case you have local corrupt files.
+" PRESIGNED_URL
 echo ""
 read -p "Enter the list of models to download without spaces (7B,13B,70B,7B-chat,13B-chat,70B-chat), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
